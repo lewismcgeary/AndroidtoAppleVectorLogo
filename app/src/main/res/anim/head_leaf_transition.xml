@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objectAnimator xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="@android:integer/config_longAnimTime"
+    android:propertyName="pathData"
+    android:valueFrom="m70,40
+c0,0 30,0 30,0
+         c0,-5 -10,-20 -30,-20
+         c-20,0 -30,15 -30,20
+         c0,0 30,0 30,0
+         "
+    android:valueTo="m85,40
+    c5.587379,-6.7633 9.348007,-16.178439 8.322067,-25.546439
+    c-8.053787,0.32369 -17.792625,5.36682 -23.569427,12.126399
+    c-5.177124,5.985922 -9.711121,15.566772 -8.48777,24.749359
+    c8.976891,0.69453 18.147476,-4.561718 23.73513,-11.329308"
+    android:valueType="pathType"
+    />

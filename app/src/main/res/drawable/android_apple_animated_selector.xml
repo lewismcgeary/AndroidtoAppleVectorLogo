@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/android_state"
+        android:state_pressed="false"
+        android:drawable="@drawable/android_head"/>
+    <item android:id="@+id/apple_state"
+        android:state_pressed="true"
+        android:drawable="@drawable/apple_leaf"/>
+        <transition
+            android:fromId="@+id/android_state"
+            android:toId="@+id/apple_state"
+            android:reversible="true">
+            <animated-vector
+                android:drawable="@drawable/android_head">
+                <target
+                    android:animation="@anim/head_leaf_transition"
+                    android:name="head"/>
+
+            </animated-vector>
+        </transition>
+</animated-selector>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:viewportWidth="170"
+    android:viewportHeight="170"
+    android:width="170dp"
+    android:height="170dp">
+    <path
+        android:name="head"
+        android:fillColor="#9FBF3B"
+        android:pathData="m70,40
+         c0,0 30,0 30,0
+         c0,-5 -10,-20 -30,-20
+         c-20,0 -30,15 -30,20
+         c0,0 30,0 30,0"/>
+    <path android:name="eyes"
+        android:fillColor="#FFFFFF"
+        android:pathData="M60,30
+        a5,5 0 0 1 0,0"/>
+
+</vector>

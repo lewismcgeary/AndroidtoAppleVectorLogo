@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<objectAnimator xmlns:android="http://schemas.android.com/apk/res/android"
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+<objectAnimator
     android:duration="@android:integer/config_longAnimTime"
     android:propertyName="pathData"
     android:valueFrom="m70,40
@@ -15,3 +16,11 @@ c0,0 30,0 30,0
     c8.976891,0.69453 18.147476,-4.561718 23.73513,-11.329308"
     android:valueType="pathType"
     />
+    <objectAnimator
+        android:duration="@android:integer/config_longAnimTime"
+        android:propertyName="fillColor"
+        android:valueFrom="#9FBF3B"
+        android:valueTo="#000000"
+        android:valueType="floatType"
+        />
+</set>

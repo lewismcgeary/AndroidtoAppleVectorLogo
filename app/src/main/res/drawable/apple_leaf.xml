@@ -5,11 +5,6 @@
     android:viewportWidth="170"
     android:viewportHeight="170">
     <path android:name="leaf"
-        android:fillColor="#000000"
-        android:pathData="
-    m85,40
-    c5.587379,-6.7633 9.348007,-16.178439 8.322067,-25.546439
-    c-8.053787,0.32369 -17.792625,5.36682 -23.569427,12.126399
-    c-5.177124,5.985922 -9.711121,15.566772 -8.48777,24.749359
-    c8.976891,0.69453 18.147476,-4.561718 23.73513,-11.329308"/>
+        android:fillColor="@color/apple_black"
+        android:pathData="@string/apple_leaf"/>
 </vector>

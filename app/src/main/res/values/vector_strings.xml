@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="android_head">m70,40
+         c0,0 30,0 30,0
+         c0,-5 -10,-20 -30,-20
+         c-20,0 -30,15 -30,20
+         c0,0 30,0 30,0</string>
+    <string name="left_eye_open">M55,30
+        a3,3 0 0 1 6,0
+        a-3,-3 0 0 1 -6,0</string>
+    <string name="left_eye_closed">M55,30
+            a3,0 0 0 1 6,0
+            a-3,0 0 0 1 -6,0</string>
+    <string name="right_eye_open">M78,30
+        a3,3 0 0 1 6,0
+        a-3,-3 0 0 1 -6,0</string>
+    <string name="right_eye_closed">M78,30
+            a3,0 0 0 1 6,0
+            a-3,0 0 0 1 -6,0</string>
+    <string name="left_antenna_normal">M60,25
+        l-6,-10</string>
+    <string name="left_antenna_gone">M60,25
+        l0,0</string>
+    <string name="right_antenna_normal">M80,25
+        l6,-10</string>
+    <string name="right_antenna_gone">M80,25
+        l0,0</string>
+
+
+    <string name="apple_leaf">m85,40
+    c5.587379,-6.7633 9.348007,-16.178439 8.322067,-25.546439
+    c-8.053787,0.32369 -17.792625,5.36682 -23.569427,12.126399
+    c-5.177124,5.985922 -9.711121,15.566772 -8.48777,24.749359
+    c8.976891,0.69453 18.147476,-4.561718 23.73513,-11.329308</string>
+</resources>

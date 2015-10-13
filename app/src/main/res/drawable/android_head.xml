@@ -6,33 +6,23 @@
     android:height="170dp">
     <path
         android:name="head"
-        android:fillColor="#9FBF3B"
-        android:pathData="m70,40
-         c0,0 30,0 30,0
-         c0,-5 -10,-20 -30,-20
-         c-20,0 -30,15 -30,20
-         c0,0 30,0 30,0"/>
+        android:fillColor="@color/android_green"
+        android:pathData="@string/android_head"/>
     <path android:name="left eye"
         android:fillColor="#FFFFFF"
-        android:pathData="M55,30
-        a3,3 0 0 1 6,0
-        a-3,-3 0 0 1 -6,0"/>
+        android:pathData="@string/left_eye_open"/>
 
     <path android:name="right eye"
         android:fillColor="#FFFFFF"
-        android:pathData="M78,30
-        a3,3 0 0 1 6,0
-        a-3,-3 0 0 1 -6,0"/>
+        android:pathData="@string/right_eye_open"/>
 
     <path android:name="left antenna"
-        android:strokeColor="#9FBF3B"
+        android:strokeColor="@color/android_green"
         android:strokeWidth="1"
-        android:pathData="M60,25
-        l-6,-10"/>
+        android:pathData="@string/left_antenna_normal"/>
     <path android:name="right antenna"
-        android:strokeColor="#9FBF3B"
+        android:strokeColor="@color/android_green"
         android:strokeWidth="1"
-        android:pathData="M80,25
-        l6,-10"/>
+        android:pathData="@string/right_antenna_normal"/>
 
 </vector>

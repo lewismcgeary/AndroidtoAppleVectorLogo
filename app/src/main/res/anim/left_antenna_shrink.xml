@@ -4,9 +4,7 @@
         android:duration="@android:integer/config_longAnimTime"
         android:propertyName="pathData"
         android:valueType="pathType"
-        android:valueFrom="M60,25
-        l-6,-10"
-        android:valueTo="M60,25
-        l0,0"
+        android:valueFrom="@string/left_antenna_normal"
+        android:valueTo="@string/left_antenna_gone"
         />
 </set>

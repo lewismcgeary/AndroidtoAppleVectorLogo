@@ -4,11 +4,7 @@
         android:duration="@android:integer/config_longAnimTime"
         android:propertyName="pathData"
         android:valueType="pathType"
-        android:valueFrom="M55,30
-        a3,3 0 0 1 6,0
-        a-3,-3 0 0 1 -6,0"
-        android:valueTo="M55,30
-            a3,0 0 0 1 6,0
-            a-3,0 0 0 1 -6,0"
+        android:valueFrom="@string/left_eye_open"
+        android:valueTo="@string/left_eye_closed"
         />
 </set>

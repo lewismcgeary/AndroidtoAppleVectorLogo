@@ -1,9 +1,11 @@
 package com.mcgearybros.androidtoapplevectorlogo;
 
 import android.app.Activity;
+import android.graphics.drawable.AnimatedVectorDrawable;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ImageView;
 
 public class MainActivity extends Activity {
 
@@ -11,7 +13,10 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        ImageView animatorImageView = (ImageView) findViewById(R.id.head_leaf_animated_vector);
+        AnimatedVectorDrawable headToLeaf = (AnimatedVectorDrawable) getResources().getDrawable(R.drawable.head_leaf_animated_vector);
+        animatorImageView.setImageDrawable(headToLeaf);
+        headToLeaf.start();
     }
 
     @Override

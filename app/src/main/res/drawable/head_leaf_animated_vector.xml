@@ -4,5 +4,16 @@
     <target
         android:animation="@anim/head_leaf_transition"
         android:name="head"/>
-
+    <target
+        android:animation="@anim/left_eye_close"
+        android:name="left eye"/>
+    <target
+        android:animation="@anim/right_eye_close"
+        android:name="right eye"/>
+    <target
+        android:animation="@anim/left_antenna_shrink"
+        android:name="left antenna"/>
+    <target
+        android:animation="@anim/right_antenna_shrink"
+        android:name="right antenna"/>
 </animated-vector>

@@ -11,10 +11,11 @@
         android:id="@+id/head_leaf_animated_vector"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/android_apple_animated_selector"
+        android:src="@drawable/head_leaf_animated_vector"
         android:clickable="true"
         android:scaleType="fitCenter"
         />
+
 
 
 </RelativeLayout>

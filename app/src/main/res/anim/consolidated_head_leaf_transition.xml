@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator
+        android:duration="@android:integer/config_longAnimTime"
+        android:startOffset="@android:integer/config_longAnimTime"
+        android:propertyName="pathData"
+        android:valueFrom="@string/android_head"
+        android:valueTo="@string/apple_leaf"
+        android:valueType="pathType"
+        />
+    <objectAnimator
+        android:duration="@android:integer/config_longAnimTime"
+        android:propertyName="fillColor"
+        android:valueFrom="@color/android_green"
+        android:valueTo="@color/apple_black"
+        android:valueType="floatType"
+        />
+
+    <objectAnimator
+        android:duration="@android:integer/config_longAnimTime"
+        android:propertyName="pathData"
+        android:valueType="pathType"
+        android:valueFrom="@string/left_antenna_normal"
+        android:valueTo="@string/left_antenna_gone"
+        />
+
+    <objectAnimator
+        android:duration="@android:integer/config_longAnimTime"
+        android:propertyName="pathData"
+        android:valueType="pathType"
+        android:valueFrom="@string/left_eye_open"
+        android:valueTo="@string/left_eye_closed"
+        />
+
+    <objectAnimator
+        android:duration="@android:integer/config_longAnimTime"
+        android:propertyName="pathData"
+        android:valueType="pathType"
+        android:valueFrom="@string/right_antenna_normal"
+        android:valueTo="@string/right_antenna_gone"
+        />
+
+    <objectAnimator
+        android:duration="@android:integer/config_longAnimTime"
+        android:propertyName="pathData"
+        android:valueType="pathType"
+        android:valueFrom="@string/right_eye_open"
+        android:valueTo="@string/right_eye_closed"
+        />
+</set>

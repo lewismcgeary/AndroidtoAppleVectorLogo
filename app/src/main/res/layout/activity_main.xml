@@ -9,8 +9,8 @@
         android:layout_height="wrap_content" />
     <ImageView
         android:id="@+id/head_leaf_animated_vector"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
         android:clickable="true"
         android:scaleType="fitCenter"
         />

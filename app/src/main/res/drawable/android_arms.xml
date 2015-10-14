@@ -6,7 +6,7 @@
     android:height="500px">
 
     <path
-        android:name="left_arm"
+        android:name="left arm"
         android:fillColor="@color/android_green"
         android:pathData="M126.383,297.598
         c0,13.45 -10.904,24.354 -24.355,24.354
@@ -16,7 +16,7 @@
         c13.451,0 24.355,10.904 24.355,24.354
         " />
     <path
-        android:name="right_arm"
+        android:name="right arm"
         android:fillColor="@color/android_green"
         android:pathData="M372.734,297.598
         c0,13.45 10.903,24.354 24.354,24.354

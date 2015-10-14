@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <set xmlns:android="http://schemas.android.com/apk/res/android">
     <objectAnimator
-        android:duration="@android:integer/config_longAnimTime"
+        android:duration="10000"
         android:startOffset="@android:integer/config_longAnimTime"
         android:propertyName="pathData"
         android:valueFrom="M126.383,297.598

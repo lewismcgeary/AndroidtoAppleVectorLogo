@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <set xmlns:android="http://schemas.android.com/apk/res/android">
     <objectAnimator
-        android:duration="@android:integer/config_longAnimTime"
+        android:duration="10000"
         android:startOffset="@android:integer/config_longAnimTime"
         android:propertyName="pathData"
         android:valueFrom="M372.734,297.598
-        c0,13.45 10.903,24.354 24.354,24.354
-        c13.45,0 24.354,-10.904 24.354,-24.354
-        c0,0 0,-98.508 0,-98.508
-        c0,-13.45 -10.904,-24.354 -24.354,-24.354
-        c-13.451,0 -24.354,10.904 -24.354,24.354
+        c0,-13.45 10.904,-24.354 24.354,-24.354
+        c13.451,0 24.354,10.904 24.354,24.354
+        c0,0 0,0 0,0
+        c0,0 0,0 0,0
         c0,0 0,98.508 0,98.508
-        c0,0 0,0 0,0"
+        c0,13.45 -10.903,24.354 -24.354,24.354
+        c-13.45,0 -24.354,-10.904 -24.354,-24.354"
         android:valueTo="M100,20
         c6.313614,0 18.167473,-8.59832 30.628998,-7.335548
         c5.21682,0.217129 19.860519,2.1073 29.263641,15.871029

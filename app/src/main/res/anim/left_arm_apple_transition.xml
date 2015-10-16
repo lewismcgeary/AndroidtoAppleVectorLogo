@@ -10,12 +10,14 @@
         c0,0 0,-33.49272 0,-33.49272
         c0,-4.573 3.70736,-8.28036 8.28036,-8.28036
         c4.573,0 8.28036,3.70736 8.28036,8.28036"
-        android:valueTo="M103,127.5
-        c-12.24469,0 -16.072174,6.151901 -26.213551,6.550446
-        c-10.52422,0.398254 -18.538303,-10.539917 -25.26247,-20.251053
-        c-13.740021,-19.864456 -24.24024,-56.132286 -10.1411,-80.613663
-        c7.004152,-12.157551 19.521101,-19.85622 33.10713,-20.053638
-        c10.334515,-0.197132 20.089069,6.952717 26.406689,6.952717"
+        android:valueTo="@string/apple_left_half"
         android:valueType="pathType"
+        />
+    <objectAnimator
+        android:duration="@integer/morphing_time"
+        android:propertyName="fillColor"
+        android:valueFrom="@color/android_green"
+        android:valueTo="@color/apple_black"
+        android:valueType="floatType"
         />
 </set>

@@ -4,15 +4,20 @@
         android:duration="@integer/morphing_time"
         android:startOffset="@integer/blinking_time"
         android:propertyName="pathData"
-        android:valueFrom="M105,53
-        c0,-4.573 3.70736,-8.28036 8.28036,-8.28036
-        c4.573,0 8.28036,3.70736 8.28036,8.28036
-        c0,0 0,0 0,0
-        c0,0 0,0 0,0
-        c0,0 0,33.49272 0,33.49272
-        c0,4.573 -3.70736,8.28036 -8.28036,8.28036
-        c-4.573,0 -8.28036,-3.70736 -8.28036,-8.28036"
-        android:valueTo="@string/apple_right_half"
+        android:valueFrom="M40,45
+        h60
+        v50
+        c0,5 -5,10 -10,10
+        h-40
+        c-5,0 -10,-5 -10,-10
+        v-50"
+        android:valueTo="M40,55
+        h60
+        v97
+        c0,5 -5,10 -10,10
+        h-40
+        c-5,0 -10,-5 -10,-10
+        v-97"
         android:valueType="pathType"
         />
     <objectAnimator

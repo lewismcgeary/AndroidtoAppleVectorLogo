@@ -23,4 +23,14 @@
     <target
         android:animation="@anim/right_arm_apple_transition"
         android:name="right arm"/>
+    <target
+        android:animation="@anim/green_to_black_animator"
+        android:name="left leg"/>
+    <target
+        android:animation="@anim/green_to_black_animator"
+        android:name="right leg"/>
+    <target
+        android:animation="@anim/body_shrink"
+        android:name="body"/>
+    
 </animated-vector>

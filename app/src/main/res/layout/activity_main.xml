@@ -3,7 +3,7 @@
     android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+     tools:context=".MainActivity">
 
 
     <ImageView
@@ -14,19 +14,21 @@
         android:scaleType="fitCenter"
         android:layout_centerInParent="true"
         />
-    <Button
-        android:id="@+id/to_apple_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="To Apple"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"/>
-    <Button
+    <ImageView
         android:id="@+id/to_android_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="To Android"
-        android:layout_alignParentBottom="true"/>
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:src="@drawable/android_logo_vector_morphable"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"/>
+    <ImageView
+        android:id="@+id/to_apple_button"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:src="@drawable/apple_logo_vector_morphable"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:paddingBottom="16dp"/>
 
 
 

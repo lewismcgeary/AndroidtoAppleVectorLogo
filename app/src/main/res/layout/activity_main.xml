@@ -5,14 +5,14 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
 
-    <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+
     <ImageView
         android:id="@+id/head_leaf_animated_vector"
         android:layout_width="170dp"
         android:layout_height="170dp"
         android:clickable="true"
         android:scaleType="fitCenter"
+        android:layout_centerInParent="true"
         />
 
 

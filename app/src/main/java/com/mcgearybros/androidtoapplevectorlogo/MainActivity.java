@@ -17,7 +17,6 @@ public class MainActivity extends Activity {
         ImageView animatorImageView = (ImageView) findViewById(R.id.head_leaf_animated_vector);
         final AnimatedVectorDrawable headToLeaf = (AnimatedVectorDrawable) getResources().getDrawable(R.drawable.consolidated_animated_vector);
         animatorImageView.setImageDrawable(headToLeaf);
-        headToLeaf.start();
         animatorImageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

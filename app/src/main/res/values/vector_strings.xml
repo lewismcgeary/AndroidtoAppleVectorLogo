@@ -3,10 +3,10 @@
     <integer name="blinking_time">1000</integer>
     <integer name="morphing_time">3000</integer>
     <string name="android_head">m70,40
-         c0,0 30,0 30,0
+         c10,0 20,0 30,0
          c0,-5 -10,-20 -30,-20
          c-20,0 -30,15 -30,20
-         c0,0 30,0 30,0</string>
+         c10,0 20,0 30,0</string>
     <string name="left_eye_open">M55,30
         a3,3 0 0 1 6,0
         a-3,-3 0 0 1 -6,0</string>

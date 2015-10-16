@@ -8,8 +8,8 @@
 
     <ImageView
         android:id="@+id/path_morph_animated_vector"
-        android:layout_width="170dp"
-        android:layout_height="170dp"
+        android:layout_width="500dp"
+        android:layout_height="500dp"
         android:clickable="true"
         android:scaleType="fitCenter"
         android:layout_centerInParent="true"

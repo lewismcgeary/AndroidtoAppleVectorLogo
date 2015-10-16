@@ -15,7 +15,7 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ImageView animatorImageView = (ImageView) findViewById(R.id.head_leaf_animated_vector);
-        final AnimatedVectorDrawable headToLeaf = (AnimatedVectorDrawable) getResources().getDrawable(R.drawable.arms_apple_animated_vector);
+        final AnimatedVectorDrawable headToLeaf = (AnimatedVectorDrawable) getResources().getDrawable(R.drawable.consolidated_animated_vector);
         animatorImageView.setImageDrawable(headToLeaf);
         headToLeaf.start();
         animatorImageView.setOnClickListener(new View.OnClickListener() {

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <set xmlns:android="http://schemas.android.com/apk/res/android">
 <objectAnimator
-    android:duration="@android:integer/config_longAnimTime"
-    android:startOffset="@android:integer/config_longAnimTime"
+    android:duration="@integer/morphing_time"
+    android:startOffset="@integer/blinking_time"
     android:propertyName="pathData"
     android:valueFrom="@string/android_head"
     android:valueTo="@string/apple_leaf"
     android:valueType="pathType"
     />
     <objectAnimator
-        android:duration="@android:integer/config_longAnimTime"
+        android:duration="@integer/morphing_time"
         android:propertyName="fillColor"
         android:valueFrom="@color/android_green"
         android:valueTo="@color/apple_black"

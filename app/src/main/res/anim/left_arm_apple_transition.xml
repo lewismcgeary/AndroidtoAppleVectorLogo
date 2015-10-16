@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <set xmlns:android="http://schemas.android.com/apk/res/android">
     <objectAnimator
-        android:duration="10000"
-        android:startOffset="@android:integer/config_longAnimTime"
+        android:duration="@integer/morphing_time"
+        android:startOffset="@integer/blinking_time"
         android:propertyName="pathData"
-        android:valueFrom="M40,50
+        android:valueFrom="M35,80
         c0,4.573 -3.70736,8.28036 -8.28036,8.28036
         c-4.573,0 -8.28036,-3.70736 -8.28036,-8.28036
         c0,0 0,-33.49272 0,-33.49272

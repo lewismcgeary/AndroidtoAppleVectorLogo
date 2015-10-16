@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
-    android:drawable="@drawable/android_head">
+    android:drawable="@drawable/android_arms_and_head">
     <target
         android:animation="@anim/head_leaf_transition"
         android:name="head"/>
@@ -16,4 +16,11 @@
     <target
         android:animation="@anim/right_antenna_shrink"
         android:name="right antenna"/>
+
+    <target
+        android:animation="@anim/left_arm_apple_transition"
+        android:name="left arm"/>
+    <target
+        android:animation="@anim/right_arm_apple_transition"
+        android:name="right arm"/>
 </animated-vector>

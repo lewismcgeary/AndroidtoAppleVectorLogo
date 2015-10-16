@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:viewportWidth="170"
+    android:viewportHeight="170"
+    android:width="170dp"
+    android:height="170dp">
+    <path
+        android:name="head"
+        android:fillColor="@color/android_green"
+        android:pathData="@string/android_head"/>
+    <path android:name="left eye"
+        android:fillColor="#FFFFFF"
+        android:pathData="@string/left_eye_open"/>
+
+    <path android:name="right eye"
+        android:fillColor="#FFFFFF"
+        android:pathData="@string/right_eye_open"/>
+
+    <path android:name="left antenna"
+        android:strokeColor="@color/android_green"
+        android:strokeWidth="1"
+        android:pathData="@string/left_antenna_normal"/>
+    <path android:name="right antenna"
+        android:strokeColor="@color/android_green"
+        android:strokeWidth="1"
+        android:pathData="@string/right_antenna_normal"/>
+
+    <path
+        android:name="left arm"
+        android:fillColor="@color/android_green"
+        android:pathData="M35,80
+        c0,4.573 -3.70736,8.28036 -8.28036,8.28036
+        c-4.573,0 -8.28036,-3.70736 -8.28036,-8.28036
+        c0,0 0,-33.49272 0,-33.49272
+        c0,-4.573 3.70736,-8.28036 8.28036,-8.28036
+        c4.573,0 8.28036,3.70736 8.28036,8.28036
+        " />
+    <path
+        android:name="right arm"
+        android:fillColor="@color/android_green"
+        android:pathData="M105,46
+        c0,-4.573 3.70736,-8.28036 8.28036,-8.28036
+        c4.573,0 8.28036,3.70736 8.28036,8.28036
+        c0,0 0,0 0,0
+        c0,0 0,0 0,0
+        c0,0 0,33.49272 0,33.49272
+        c0,4.573 -3.70736,8.28036 -8.28036,8.28036
+        c-4.573,0 -8.28036,-3.70736 -8.28036,-8.28036" />
+</vector>

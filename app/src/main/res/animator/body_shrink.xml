@@ -7,6 +7,8 @@
         android:valueFrom="@string/body"
         android:valueTo="@string/body_shrunk"
         android:valueType="pathType"
+        android:interpolator="@android:interpolator/bounce"
+
         />
     <objectAnimator
         android:duration="@integer/morphing_time"

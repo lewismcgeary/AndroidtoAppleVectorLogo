@@ -7,6 +7,7 @@
     android:valueFrom="@string/android_head"
     android:valueTo="@string/apple_leaf"
     android:valueType="pathType"
+    android:interpolator="@android:interpolator/overshoot"
     />
     <objectAnimator
         android:duration="@integer/morphing_time"

@@ -2,38 +2,38 @@
 <resources>
     <integer name="blinking_time">1000</integer>
     <integer name="morphing_time">2000</integer>
-    <string name="android_head">m70,40
+    <string name="android_head">m85,40
          c10,0 20,0 30,0
          c0,-5 -10,-20 -30,-20
          c-20,0 -30,15 -30,20
          c10,0 20,0 30,0</string>
-    <string name="left_eye_open">M55,30
+    <string name="left_eye_open">M70,30
         a3,3 0 0 1 6,0
         a-3,-3 0 0 1 -6,0</string>
-    <string name="left_eye_closed">M55,30
+    <string name="left_eye_closed">M70,30
             a3,0 0 0 1 6,0
             a-3,0 0 0 1 -6,0</string>
-    <string name="right_eye_open">M78,30
+    <string name="right_eye_open">M93,30
         a3,3 0 0 1 6,0
         a-3,-3 0 0 1 -6,0</string>
-    <string name="right_eye_closed">M78,30
+    <string name="right_eye_closed">M93,30
             a3,0 0 0 1 6,0
             a-3,0 0 0 1 -6,0</string>
-    <string name="left_antenna_normal">M60,25
+    <string name="left_antenna_normal">M75,25
         l-6,-10</string>
-    <string name="left_antenna_gone">M60,25
+    <string name="left_antenna_gone">M75,25
         l0,0</string>
-    <string name="right_antenna_normal">M80,25
+    <string name="right_antenna_normal">M95,25
         l6,-10</string>
-    <string name="right_antenna_gone">M80,25
+    <string name="right_antenna_gone">M95,25
         l0,0</string>
-    <string name="left_arm">M35,87
+    <string name="left_arm">M50,87
         c0,4.573 -3.70736,8.28036 -8.28036,8.28036
         c-4.573,0 -8.28036,-3.70736 -8.28036,-8.28036
         c0,0 0,-33.49272 0,-33.49272
         c0,-4.573 3.70736,-8.28036 8.28036,-8.28036
         c4.573,0 8.28036,3.70736 8.28036,8.28036</string>
-    <string name="right_arm">M105,53
+    <string name="right_arm">M120,53
         c0,-4.573 3.70736,-8.28036 8.28036,-8.28036
         c4.573,0 8.28036,3.70736 8.28036,8.28036
         c0,0 0,0 0,0
@@ -41,26 +41,26 @@
         c0,0 0,33.49272 0,33.49272
         c0,4.573 -3.70736,8.28036 -8.28036,8.28036
         c-4.573,0 -8.28036,-3.70736 -8.28036,-8.28036</string>
-    <string name="left_leg">M65,120
+    <string name="left_leg">M80,120
         c0,4.573 -3.70736,8.28036 -8.28036,8.28036
         c-4.573,0 -8.28036,-3.70736 -8.28036,-8.28036
         c0,0 0,-33.49272 0,-33.49272
         c0,-4.573 3.70736,-8.28036 8.28036,-8.28036
         c4.573,0 8.28036,3.70736 8.28036,8.28036</string>
-    <string name="right_leg">M90,120
+    <string name="right_leg">M105,120
         c0,4.573 -3.70736,8.28036 -8.28036,8.28036
         c-4.573,0 -8.28036,-3.70736 -8.28036,-8.28036
         c0,0 0,-33.49272 0,-33.49272
         c0,-4.573 3.70736,-8.28036 8.28036,-8.28036
         c4.573,0 8.28036,3.70736 8.28036,8.28036</string>
-    <string name="body">M40,45
+    <string name="body">M55,45
         h60
         v50
         c0,5 -5,10 -10,10
         h-40
         c-5,0 -10,-5 -10,-10
         v-50</string>
-    <string name="body_shrunk">M40,55
+    <string name="body_shrunk">M55,55
         h60
         v97
         c0,5 -5,10 -10,10
@@ -69,18 +69,18 @@
         v-97</string>
 
 
-    <string name="apple_leaf">m93,35
+    <string name="apple_leaf">m108,35
     c5.587379,-6.7633 9.348007,-16.178439 8.322067,-25.546439
     c-8.053787,0.32369 -17.792625,5.36682 -23.569427,12.126399
     c-5.177124,5.985922 -9.711121,15.566772 -8.48777,24.749359
     c8.976891,0.69453 18.147476,-4.561718 23.73513,-11.329308</string>
-    <string name="apple_left_half">M73,162.5
+    <string name="apple_left_half">M88,162.5
         c-12.24469,0 -16.072174,6.151901 -26.213551,6.550446
         c-10.52422,0.398254 -18.538303,-10.539917 -25.26247,-20.251053
         c-13.740021,-19.864456 -24.24024,-56.132286 -10.1411,-80.613663
         c7.004152,-12.157551 19.521101,-19.85622 33.10713,-20.053638
         c10.334515,-0.197132 20.089069,6.952717 26.406689,6.952717</string>
-    <string name="apple_right_half">M70,55
+    <string name="apple_right_half">M85,55
         c6.313614,0 18.167473,-8.59832 30.628998,-7.335548
         c5.21682,0.217129 19.860519,2.1073 29.263641,15.871029
         c-0.75766,0.469692 -17.472931,10.200527 -17.291229,30.443592

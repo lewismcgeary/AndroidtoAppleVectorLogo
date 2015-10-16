@@ -6,5 +6,6 @@
         android:valueType="pathType"
         android:valueFrom="@string/left_eye_open"
         android:valueTo="@string/left_eye_closed"
+        android:interpolator="@android:interpolator/anticipate"
         />
 </set>

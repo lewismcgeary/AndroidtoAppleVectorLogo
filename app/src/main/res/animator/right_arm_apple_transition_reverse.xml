@@ -6,7 +6,7 @@
         android:valueFrom="@string/apple_right_half"
         android:valueTo="@string/right_arm"
         android:valueType="pathType"
-        android:interpolator="@android:interpolator/accelerate_decelerate"
+        android:interpolator="@android:interpolator/anticipate"
 
         />
     <objectAnimator

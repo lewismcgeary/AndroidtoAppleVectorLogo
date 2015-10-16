@@ -6,5 +6,7 @@
         android:valueType="pathType"
         android:valueFrom="@string/right_antenna_normal"
         android:valueTo="@string/right_antenna_gone"
+        android:interpolator="@android:interpolator/anticipate"
+
         />
 </set>

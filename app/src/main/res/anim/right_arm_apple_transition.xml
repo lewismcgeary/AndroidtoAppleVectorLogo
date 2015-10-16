@@ -4,14 +4,7 @@
         android:duration="@integer/morphing_time"
         android:startOffset="@integer/blinking_time"
         android:propertyName="pathData"
-        android:valueFrom="M105,53
-        c0,-4.573 3.70736,-8.28036 8.28036,-8.28036
-        c4.573,0 8.28036,3.70736 8.28036,8.28036
-        c0,0 0,0 0,0
-        c0,0 0,0 0,0
-        c0,0 0,33.49272 0,33.49272
-        c0,4.573 -3.70736,8.28036 -8.28036,8.28036
-        c-4.573,0 -8.28036,-3.70736 -8.28036,-8.28036"
+        android:valueFrom="@string/right_arm"
         android:valueTo="@string/apple_right_half"
         android:valueType="pathType"
         />

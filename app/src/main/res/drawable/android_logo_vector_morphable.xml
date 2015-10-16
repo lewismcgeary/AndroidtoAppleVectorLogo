@@ -28,51 +28,22 @@
     <path
         android:name="left arm"
         android:fillColor="@color/android_green"
-        android:pathData="M35,87
-        c0,4.573 -3.70736,8.28036 -8.28036,8.28036
-        c-4.573,0 -8.28036,-3.70736 -8.28036,-8.28036
-        c0,0 0,-33.49272 0,-33.49272
-        c0,-4.573 3.70736,-8.28036 8.28036,-8.28036
-        c4.573,0 8.28036,3.70736 8.28036,8.28036
-        " />
+        android:pathData="@string/left_arm"/>
     <path
         android:name="right arm"
         android:fillColor="@color/android_green"
-        android:pathData="M105,53
-        c0,-4.573 3.70736,-8.28036 8.28036,-8.28036
-        c4.573,0 8.28036,3.70736 8.28036,8.28036
-        c0,0 0,0 0,0
-        c0,0 0,0 0,0
-        c0,0 0,33.49272 0,33.49272
-        c0,4.573 -3.70736,8.28036 -8.28036,8.28036
-        c-4.573,0 -8.28036,-3.70736 -8.28036,-8.28036" />
+        android:pathData="@string/right_arm"/>
 
     <path
         android:name="left leg"
         android:fillColor="@color/android_green"
-        android:pathData="M65,120
-        c0,4.573 -3.70736,8.28036 -8.28036,8.28036
-        c-4.573,0 -8.28036,-3.70736 -8.28036,-8.28036
-        c0,0 0,-33.49272 0,-33.49272
-        c0,-4.573 3.70736,-8.28036 8.28036,-8.28036
-        c4.573,0 8.28036,3.70736 8.28036,8.28036"/>
+        android:pathData="@string/left_leg"/>
     <path
         android:name="right leg"
         android:fillColor="@color/android_green"
-        android:pathData="M90,120
-        c0,4.573 -3.70736,8.28036 -8.28036,8.28036
-        c-4.573,0 -8.28036,-3.70736 -8.28036,-8.28036
-        c0,0 0,-33.49272 0,-33.49272
-        c0,-4.573 3.70736,-8.28036 8.28036,-8.28036
-        c4.573,0 8.28036,3.70736 8.28036,8.28036"/>
+        android:pathData="@string/right_leg"/>
     <path
         android:name="body"
         android:fillColor="@color/android_green"
-        android:pathData="M40,45
-        h60
-        v50
-        c0,5 -5,10 -10,10
-        h-40
-        c-5,0 -10,-5 -10,-10
-        v-50"/>
+        android:pathData="@string/body"/>
 </vector>

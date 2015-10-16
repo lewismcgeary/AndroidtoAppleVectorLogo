@@ -4,20 +4,8 @@
         android:duration="@integer/morphing_time"
         android:startOffset="@integer/blinking_time"
         android:propertyName="pathData"
-        android:valueFrom="M40,45
-        h60
-        v50
-        c0,5 -5,10 -10,10
-        h-40
-        c-5,0 -10,-5 -10,-10
-        v-50"
-        android:valueTo="M40,55
-        h60
-        v97
-        c0,5 -5,10 -10,10
-        h-40
-        c-5,0 -10,-5 -10,-10
-        v-97"
+        android:valueFrom="@string/body"
+        android:valueTo="@string/body_shrunk"
         android:valueType="pathType"
         />
     <objectAnimator

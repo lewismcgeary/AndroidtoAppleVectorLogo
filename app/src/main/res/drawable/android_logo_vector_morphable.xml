@@ -9,11 +9,11 @@
         android:fillColor="@color/android_green"
         android:pathData="@string/android_head"/>
     <path android:name="left eye"
-        android:fillColor="#FFFFFF"
+        android:fillColor="@color/eye_white"
         android:pathData="@string/left_eye_open"/>
 
     <path android:name="right eye"
-        android:fillColor="#FFFFFF"
+        android:fillColor="@color/eye_white"
         android:pathData="@string/right_eye_open"/>
 
     <path android:name="left antenna"

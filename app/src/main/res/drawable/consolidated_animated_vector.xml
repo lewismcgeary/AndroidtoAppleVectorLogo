@@ -24,10 +24,10 @@
         android:animation="@animator/right_arm_apple_transition"
         android:name="right arm"/>
     <target
-        android:animation="@animator/green_to_black_animator"
+        android:animation="@animator/green_to_black"
         android:name="left leg"/>
     <target
-        android:animation="@animator/green_to_black_animator"
+        android:animation="@animator/green_to_black"
         android:name="right leg"/>
     <target
         android:animation="@animator/body_shrink"

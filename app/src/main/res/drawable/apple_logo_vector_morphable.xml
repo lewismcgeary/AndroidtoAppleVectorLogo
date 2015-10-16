@@ -15,5 +15,36 @@
         android:name="apple right half"
         android:fillColor="@color/apple_black"
         android:pathData="@string/apple_right_half"/>
+    <path
+        android:name="left eye"
+        android:fillColor="@color/eye_white"
+        android:pathData="@string/left_eye_closed"/>
+    <path
+        android:name="right eye"
+        android:fillColor="@color/eye_white"
+        android:pathData="@string/right_eye_closed"/>
+    <path
+        android:name="left antenna"
+        android:strokeWidth="1"
+        android:strokeColor="@color/android_green"
+        android:pathData="@string/left_antenna_gone"/>
+    <path
+        android:name="right antenna"
+        android:strokeWidth="1"
+        android:strokeColor="@color/android_green"
+        android:pathData="@string/right_antenna_gone"/>
+    <path
+        android:name="left leg"
+        android:fillColor="@color/apple_black"
+        android:pathData="@string/left_leg"/>
+    <path
+        android:name="right leg"
+        android:fillColor="@color/apple_black"
+        android:pathData="@string/right_leg"/>
+    <path
+        android:name="body"
+        android:fillColor="@color/apple_black"
+        android:pathData="@string/body_shrunk"/>
+
 
 </vector>

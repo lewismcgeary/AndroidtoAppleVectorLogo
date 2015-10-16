@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator
+        android:duration="@integer/morphing_time"
+        android:propertyName="fillColor"
+        android:valueFrom="@color/apple_black"
+        android:valueTo="@color/android_green"
+        android:valueType="floatType"
+        />
+</set>

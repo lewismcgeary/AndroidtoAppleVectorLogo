@@ -2,35 +2,35 @@
 <animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:drawable="@drawable/android_logo_vector_morphable">
     <target
-        android:animation="@anim/head_leaf_transition"
+        android:animation="@animator/head_leaf_transition"
         android:name="head"/>
     <target
-        android:animation="@anim/left_eye_close"
+        android:animation="@animator/left_eye_close"
         android:name="left eye"/>
     <target
-        android:animation="@anim/right_eye_close"
+        android:animation="@animator/right_eye_close"
         android:name="right eye"/>
     <target
-        android:animation="@anim/left_antenna_shrink"
+        android:animation="@animator/left_antenna_shrink"
         android:name="left antenna"/>
     <target
-        android:animation="@anim/right_antenna_shrink"
+        android:animation="@animator/right_antenna_shrink"
         android:name="right antenna"/>
 
     <target
-        android:animation="@anim/left_arm_apple_transition"
+        android:animation="@animator/left_arm_apple_transition"
         android:name="left arm"/>
     <target
-        android:animation="@anim/right_arm_apple_transition"
+        android:animation="@animator/right_arm_apple_transition"
         android:name="right arm"/>
     <target
-        android:animation="@anim/green_to_black_animator"
+        android:animation="@animator/green_to_black_animator"
         android:name="left leg"/>
     <target
-        android:animation="@anim/green_to_black_animator"
+        android:animation="@animator/green_to_black_animator"
         android:name="right leg"/>
     <target
-        android:animation="@anim/body_shrink"
+        android:animation="@animator/body_shrink"
         android:name="body"/>
     
 </animated-vector>

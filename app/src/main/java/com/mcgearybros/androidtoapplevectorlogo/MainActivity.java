@@ -6,24 +6,47 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 
 public class MainActivity extends Activity {
+
+    AnimatedVectorDrawable mightyMorphinAnimatedVectorDrawable;
+    ImageView animatorImageView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        ImageView animatorImageView = (ImageView) findViewById(R.id.head_leaf_animated_vector);
-        final AnimatedVectorDrawable headToLeaf = (AnimatedVectorDrawable) getResources().getDrawable(R.drawable.consolidated_animated_vector_reverse);
-        animatorImageView.setImageDrawable(headToLeaf);
-        animatorImageView.setOnClickListener(new View.OnClickListener() {
+        animatorImageView = (ImageView) findViewById(R.id.path_morph_animated_vector);
+        mightyMorphinAnimatedVectorDrawable = (AnimatedVectorDrawable) getDrawable(R.drawable.consolidated_animated_vector);
+        animatorImageView.setImageDrawable(mightyMorphinAnimatedVectorDrawable);
+        Button toAppleButton = (Button) findViewById(R.id.to_apple_button);
+        toAppleButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-                headToLeaf.start();
+                animateToApple();
             }
         });
+        Button toAndroidButton = (Button) findViewById(R.id.to_android_button);
+        toAndroidButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                animateToAndroid();
+            }
+        });
+    }
+
+    public void animateToApple(){
+        mightyMorphinAnimatedVectorDrawable= (AnimatedVectorDrawable) getDrawable(R.drawable.consolidated_animated_vector);
+        animatorImageView.setImageDrawable(mightyMorphinAnimatedVectorDrawable);
+        mightyMorphinAnimatedVectorDrawable.start();
+    }
+
+    public void animateToAndroid(){
+        mightyMorphinAnimatedVectorDrawable= (AnimatedVectorDrawable) getDrawable(R.drawable.consolidated_animated_vector_reverse);
+        animatorImageView.setImageDrawable(mightyMorphinAnimatedVectorDrawable);
+        mightyMorphinAnimatedVectorDrawable.start();
     }
 
     @Override

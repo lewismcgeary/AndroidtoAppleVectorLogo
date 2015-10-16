@@ -7,13 +7,26 @@
 
 
     <ImageView
-        android:id="@+id/head_leaf_animated_vector"
+        android:id="@+id/path_morph_animated_vector"
         android:layout_width="170dp"
         android:layout_height="170dp"
         android:clickable="true"
         android:scaleType="fitCenter"
         android:layout_centerInParent="true"
         />
+    <Button
+        android:id="@+id/to_apple_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To Apple"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"/>
+    <Button
+        android:id="@+id/to_android_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To Android"
+        android:layout_alignParentBottom="true"/>
 
 
 

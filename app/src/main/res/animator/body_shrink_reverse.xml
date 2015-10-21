@@ -6,7 +6,7 @@
         android:valueFrom="@string/body_shrunk"
         android:valueTo="@string/body"
         android:valueType="pathType"
-        android:interpolator="@android:interpolator/anticipate"
+        android:interpolator="@android:interpolator/fast_out_slow_in"
 
         />
     <objectAnimator

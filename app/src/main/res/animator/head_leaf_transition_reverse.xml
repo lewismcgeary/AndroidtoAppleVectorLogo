@@ -13,6 +13,5 @@
         android:propertyName="fillColor"
         android:valueFrom="@color/apple_black"
         android:valueTo="@color/android_green"
-        android:valueType="floatType"
         />
 </set>

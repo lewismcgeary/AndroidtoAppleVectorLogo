@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:drawable="@drawable/apple_logo_vector_morphable">
+
+    <!-- any paths which use startOffset need to be reset to their
+    correct starting state-->
+    <target
+        android:animation="@animator/reset_to_gone_state"
+        android:name="left eye"/>
+    <target
+        android:animation="@animator/reset_to_gone_state"
+        android:name="right eye"/>
+    <target
+        android:animation="@animator/reset_to_gone_state"
+        android:name="left antenna"/>
+    <target
+        android:animation="@animator/reset_to_gone_state"
+        android:name="right antenna"/>
+    <!--end of reset group-->
+
+
+
     <target
         android:animation="@animator/head_leaf_transition_reverse"
         android:name="leaf"/>
@@ -16,7 +35,6 @@
     <target
         android:animation="@animator/right_antenna_shrink_reverse"
         android:name="right antenna"/>
-
     <target
         android:animation="@animator/left_arm_apple_transition_reverse"
         android:name="apple left half"/>

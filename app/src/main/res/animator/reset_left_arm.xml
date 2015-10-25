@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator
+        android:duration="0"
+        android:propertyName="pathData"
+        android:valueFrom="@string/left_arm"
+        android:valueTo="@string/left_arm"
+        android:valueType="pathType"
+        />
+</set>

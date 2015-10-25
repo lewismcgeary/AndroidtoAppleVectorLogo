@@ -1,6 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:drawable="@drawable/android_logo_vector_morphable">
+
+    <!-- any paths which use startOffset need to be reset to their
+    correct starting state-->
+    <target
+        android:animation="@animator/reset_head"
+        android:name="head"/>
+    <target
+        android:animation="@animator/reset_body"
+        android:name="body"/>
+    <target
+        android:animation="@animator/reset_left_arm"
+        android:name="left arm"/>
+    <target
+        android:animation="@animator/reset_right_arm"
+        android:name="right arm"/>
+    <target
+        android:animation="@animator/reset_to_green"
+        android:name="head"/>
+    <target
+        android:animation="@animator/reset_to_green"
+        android:name="body"/>
+    <target
+        android:animation="@animator/reset_to_green"
+        android:name="left arm"/>
+    <target
+        android:animation="@animator/reset_to_green"
+        android:name="right arm"/>
+    <target
+        android:animation="@animator/reset_to_green"
+        android:name="left leg"/>
+    <target
+        android:animation="@animator/reset_to_green"
+        android:name="right leg"/>
+    <!-- end of reset group-->
+
+
     <target
         android:animation="@animator/head_leaf_transition"
         android:name="head"/>
@@ -16,7 +52,6 @@
     <target
         android:animation="@animator/right_antenna_shrink"
         android:name="right antenna"/>
-
     <target
         android:animation="@animator/left_arm_apple_transition"
         android:name="left arm"/>

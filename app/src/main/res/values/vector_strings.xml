@@ -2,7 +2,7 @@
 <resources>
     <integer name="blinking_time">1000</integer>
     <integer name="morphing_time">2000</integer>
-    <string name="android_head">m85,40
+    <string name="android_head">M85,40
          c10,0 20,0 30,0
          c0,-5 -10,-20 -30,-20
          c-20,0 -30,15 -30,20
@@ -69,7 +69,7 @@
         v-97.5</string>
 
 
-    <string name="apple_leaf">m108,35
+    <string name="apple_leaf">M108,35
     c5.587379,-6.7633 9.348007,-16.178439 8.322067,-25.546439
     c-8.053787,0.32369 -17.792625,5.36682 -23.569427,12.126399
     c-5.177124,5.985922 -9.711121,15.566772 -8.48777,24.749359

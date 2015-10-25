@@ -12,6 +12,7 @@ public class MainActivity extends Activity {
     AnimatedVectorDrawable mightyMorphinAnimatedVectorDrawableReversed;
     ImageView animatorImageView;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -19,7 +20,7 @@ public class MainActivity extends Activity {
         animatorImageView = (ImageView) findViewById(R.id.path_morph_animated_vector);
         mightyMorphinAnimatedVectorDrawable = (AnimatedVectorDrawable) getDrawable(R.drawable.consolidated_animated_vector);
         mightyMorphinAnimatedVectorDrawableReversed = (AnimatedVectorDrawable) getDrawable(R.drawable.consolidated_animated_vector_reverse);
-        animatorImageView.setImageDrawable(mightyMorphinAnimatedVectorDrawable);
+        animatorImageView.setImageDrawable(getDrawable(R.drawable.android_logo_vector_morphable));
         final ImageView toAppleButton = (ImageView) findViewById(R.id.to_apple_button);
         final ImageView toAndroidButton = (ImageView) findViewById(R.id.to_android_button);
         toAndroidButton.setEnabled(false);
@@ -42,13 +43,15 @@ public class MainActivity extends Activity {
     }
 
     public void animateToApple(){
-        mightyMorphinAnimatedVectorDrawable= (AnimatedVectorDrawable) getDrawable(R.drawable.consolidated_animated_vector);
+        //mightyMorphinAnimatedVectorDrawable= (AnimatedVectorDrawable) getDrawable(R.drawable.consolidated_animated_vector);
+        mightyMorphinAnimatedVectorDrawable.stop();
         animatorImageView.setImageDrawable(mightyMorphinAnimatedVectorDrawable);
         mightyMorphinAnimatedVectorDrawable.start();
     }
 
     public void animateToAndroid(){
-        mightyMorphinAnimatedVectorDrawableReversed= (AnimatedVectorDrawable) getDrawable(R.drawable.consolidated_animated_vector_reverse);
+        //mightyMorphinAnimatedVectorDrawableReversed= (AnimatedVectorDrawable) getDrawable(R.drawable.consolidated_animated_vector_reverse);
+        mightyMorphinAnimatedVectorDrawableReversed.stop();
         animatorImageView.setImageDrawable(mightyMorphinAnimatedVectorDrawableReversed);
         mightyMorphinAnimatedVectorDrawableReversed.start();
     }

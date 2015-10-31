@@ -19,14 +19,14 @@
     <string name="right_eye_closed">M93,30
             a3,0 0 0 1 6,0
             a-3,0 0 0 1 -6,0</string>
-    <string name="left_antenna_normal">M75,25
-        l-6,-10</string>
-    <string name="left_antenna_gone">M75,25
-        l0,0</string>
-    <string name="right_antenna_normal">M95,25
-        l6,-10</string>
-    <string name="right_antenna_gone">M95,25
-        l0,0</string>
+    <string name="left_antenna_normal">M75,23
+        l-6,-10 0, 12</string>
+    <string name="left_antenna_gone">M75,23
+        l0,0 0,0</string>
+    <string name="right_antenna_normal">M95,23
+        l6,-10 0,12</string>
+    <string name="right_antenna_gone">M95,23
+        l0,0 0,0</string>
     <string name="left_arm">M50,87
         c0,4.573 -3.70736,8.28036 -8.28036,8.28036
         c-4.573,0 -8.28036,-3.70736 -8.28036,-8.28036

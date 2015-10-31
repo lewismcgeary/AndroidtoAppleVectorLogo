@@ -3,7 +3,7 @@
     <objectAnimator
         android:duration="@integer/morphing_time"
         android:propertyName="fillColor"
-        android:valueFrom="@color/apple_black"
-        android:valueTo="@color/android_green"
+        android:valueFrom="@color/pumpkin_orange"
+        android:valueTo="@color/android_red"
         />
 </set>

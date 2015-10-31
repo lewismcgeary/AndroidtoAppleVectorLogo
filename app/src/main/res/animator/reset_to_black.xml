@@ -3,7 +3,7 @@
     <objectAnimator
         android:duration="0"
         android:propertyName="fillColor"
-        android:valueFrom="@color/apple_black"
-        android:valueTo="@color/apple_black"
+        android:valueFrom="@color/pumpkin_orange"
+        android:valueTo="@color/pumpkin_orange"
         />
 </set>

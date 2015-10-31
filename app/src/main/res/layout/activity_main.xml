@@ -3,7 +3,8 @@
     android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
 
-     tools:context=".MainActivity">
+     tools:context=".MainActivity"
+    android:background="#000000">
 
 
     <ImageView

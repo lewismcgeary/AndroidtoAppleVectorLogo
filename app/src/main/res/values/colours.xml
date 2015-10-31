@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="android_green">#9FBF3B</color>
-    <color name="apple_black">#000000</color>
-    <color name="eye_white">#FFFFFF</color>
+    <color name="android_red">#B71C1C</color>
+    <color name="pumpkin_orange">#f28a03</color>
+    <color name="eye_black">#000000</color>
+    <color name="leaf_green">#4CAF50</color>
 </resources>

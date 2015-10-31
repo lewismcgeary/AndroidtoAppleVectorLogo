@@ -4,7 +4,7 @@
         android:duration="@integer/morphing_time"
         android:startOffset="@integer/blinking_time"
         android:propertyName="fillColor"
-        android:valueFrom="@color/android_green"
-        android:valueTo="@color/apple_black"
+        android:valueFrom="@color/android_red"
+        android:valueTo="@color/pumpkin_orange"
         />
 </set>

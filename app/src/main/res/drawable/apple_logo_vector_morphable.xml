@@ -5,45 +5,43 @@
     android:viewportWidth="170"
     android:viewportHeight="170">
     <path android:name="leaf"
-        android:fillColor="@color/apple_black"
+        android:fillColor="@color/leaf_green"
         android:pathData="@string/apple_leaf"/>
     <path
         android:name="apple left half"
-        android:fillColor="@color/apple_black"
+        android:fillColor="@color/pumpkin_orange"
         android:pathData="@string/apple_left_half"/>
     <path
         android:name="apple right half"
-        android:fillColor="@color/apple_black"
+        android:fillColor="@color/pumpkin_orange"
         android:pathData="@string/apple_right_half"/>
     <path
         android:name="left eye"
-        android:fillColor="@color/eye_white"
+        android:fillColor="@color/eye_black"
         android:pathData="@string/left_eye_closed"/>
     <path
         android:name="right eye"
-        android:fillColor="@color/eye_white"
+        android:fillColor="@color/eye_black"
         android:pathData="@string/right_eye_closed"/>
     <path
         android:name="left antenna"
-        android:strokeWidth="1"
-        android:strokeColor="@color/android_green"
+        android:fillColor="@color/android_red"
         android:pathData="@string/left_antenna_gone"/>
     <path
         android:name="right antenna"
-        android:strokeWidth="1"
-        android:strokeColor="@color/android_green"
+        android:fillColor="@color/android_red"
         android:pathData="@string/right_antenna_gone"/>
     <path
         android:name="left leg"
-        android:fillColor="@color/apple_black"
+        android:fillColor="@color/pumpkin_orange"
         android:pathData="@string/left_leg"/>
     <path
         android:name="right leg"
-        android:fillColor="@color/apple_black"
+        android:fillColor="@color/pumpkin_orange"
         android:pathData="@string/right_leg"/>
     <path
         android:name="body"
-        android:fillColor="@color/apple_black"
+        android:fillColor="@color/pumpkin_orange"
         android:pathData="@string/body_shrunk"/>
 
 

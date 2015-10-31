@@ -6,44 +6,42 @@
     android:height="500dp">
     <path
         android:name="head"
-        android:fillColor="@color/android_green"
+        android:fillColor="@color/android_red"
         android:pathData="@string/android_head"/>
     <path android:name="left eye"
-        android:fillColor="@color/eye_white"
+        android:fillColor="@color/eye_black"
         android:pathData="@string/left_eye_open"/>
 
     <path android:name="right eye"
-        android:fillColor="@color/eye_white"
+        android:fillColor="@color/eye_black"
         android:pathData="@string/right_eye_open"/>
 
     <path android:name="left antenna"
-        android:strokeColor="@color/android_green"
-        android:strokeWidth="1"
+        android:fillColor="@color/android_red"
         android:pathData="@string/left_antenna_normal"/>
     <path android:name="right antenna"
-        android:strokeColor="@color/android_green"
-        android:strokeWidth="1"
+        android:fillColor="@color/android_red"
         android:pathData="@string/right_antenna_normal"/>
 
     <path
         android:name="left arm"
-        android:fillColor="@color/android_green"
+        android:fillColor="@color/android_red"
         android:pathData="@string/left_arm"/>
     <path
         android:name="right arm"
-        android:fillColor="@color/android_green"
+        android:fillColor="@color/android_red"
         android:pathData="@string/right_arm"/>
 
     <path
         android:name="left leg"
-        android:fillColor="@color/android_green"
+        android:fillColor="@color/android_red"
         android:pathData="@string/left_leg"/>
     <path
         android:name="right leg"
-        android:fillColor="@color/android_green"
+        android:fillColor="@color/android_red"
         android:pathData="@string/right_leg"/>
     <path
         android:name="body"
-        android:fillColor="@color/android_green"
+        android:fillColor="@color/android_red"
         android:pathData="@string/body"/>
 </vector>

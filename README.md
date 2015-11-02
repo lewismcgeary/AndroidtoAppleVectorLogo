@@ -5,3 +5,4 @@ This project is an Android app demoing the use of AnimatedVectorDrawables to mor
 I've also written an [article explaining the process of making this](https://lewismcgeary.github.io/posts/animated-vector-drawable-pathMorphing/).
 
 ![AnimatedVectorDrawable](https://cloud.githubusercontent.com/assets/12188996/10886198/eac2b62e-8178-11e5-9f20-80c6262b12d9.gif)
+![Halloween version](https://cloud.githubusercontent.com/assets/12188996/10887000/a703f3c2-817c-11e5-9fc4-6377dea8842a.gif)

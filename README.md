@@ -1,9 +1,7 @@
 # AndroidtoAppleVectorLogo
 
 
-Android app demoing the use of AnimatedVectorDrawables to morph vector graphics within an android app.
-
-For a tutorial about making this: [read my blog post](https://lewismcgeary.github.io/posts/animated-vector-drawable-pathMorphing/).
+Android app demoing the use of AnimatedVectorDrawables to morph vector graphics within an android app. For a tutorial about making this: [read my blog post](https://lewismcgeary.github.io/posts/animated-vector-drawable-pathMorphing/).
 
 Follow me on [Google+: +LewisMcGeary](https://www.google.com/+LewisMcGeary) or [Twitter: @lewismcgeary](https://twitter.com/lewismcgeary).
 

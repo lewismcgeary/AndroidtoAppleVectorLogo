@@ -3,7 +3,7 @@
 
 This project is an Android app demoing the use of AnimatedVectorDrawables to morph vector graphics within an android app. It is compatible with Android version 5.0(Lollipop) and above.
 
-I've also written an [article explaining the process of making this: https://lewismcgeary.github.io/posts/animated-vector-drawable-pathMorphing/](https://lewismcgeary.github.io/posts/animated-vector-drawable-pathMorphing/).
+Tutorial for making this: [https://lewismcgeary.github.io/posts/animated-vector-drawable-pathMorphing/](https://lewismcgeary.github.io/posts/animated-vector-drawable-pathMorphing/).
 
 Follow me on [Google+: +LewisMcGeary](https://www.google.com/+LewisMcGeary) or [Twitter: @lewismcgeary](https://twitter.com/lewismcgeary).
 

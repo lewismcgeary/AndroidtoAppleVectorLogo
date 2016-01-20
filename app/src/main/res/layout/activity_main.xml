@@ -8,27 +8,10 @@
 
     <ImageView
         android:id="@+id/path_morph_animated_vector"
+        android:src="@drawable/android_logo_vector_morphable"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:clickable="true"
         android:scaleType="fitCenter"
         android:layout_centerHorizontal="true"/>
-    <ImageView
-        android:id="@+id/to_android_button"
-        android:layout_width="96dp"
-        android:layout_height="96dp"
-        android:src="@drawable/android_logo_vector_morphable"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"/>
-    <ImageView
-        android:id="@+id/to_apple_button"
-        android:layout_width="96dp"
-        android:layout_height="96dp"
-        android:src="@drawable/apple_logo_vector_morphable"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:paddingBottom="16dp"/>
-
-
-
 </RelativeLayout>

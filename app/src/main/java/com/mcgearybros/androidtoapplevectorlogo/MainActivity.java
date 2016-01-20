@@ -8,10 +8,10 @@ import android.widget.ImageView;
 
 public class MainActivity extends Activity {
 
-    AnimatedVectorDrawable mightyMorphinAnimatedVectorDrawable;
-    AnimatedVectorDrawable mightyMorphinAnimatedVectorDrawableReversed;
-    ImageView animatorImageView;
-
+    private AnimatedVectorDrawable mightyMorphinAnimatedVectorDrawable;
+    private AnimatedVectorDrawable mightyMorphinAnimatedVectorDrawableReversed;
+    private ImageView animatorImageView;
+    private boolean isShowingAndroid = true;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +22,13 @@ public class MainActivity extends Activity {
         mightyMorphinAnimatedVectorDrawable = (AnimatedVectorDrawable) getDrawable(R.drawable.consolidated_animated_vector);
         mightyMorphinAnimatedVectorDrawableReversed = (AnimatedVectorDrawable) getDrawable(R.drawable.consolidated_animated_vector_reverse);
         animatorImageView.setImageDrawable(getDrawable(R.drawable.android_logo_vector_morphable));
+
+        animatorImageView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                morph();
+            }
+        });
 
         final ImageView toAppleButton = (ImageView) findViewById(R.id.to_apple_button);
         final ImageView toAndroidButton = (ImageView) findViewById(R.id.to_android_button);
@@ -54,6 +61,12 @@ public class MainActivity extends Activity {
         mightyMorphinAnimatedVectorDrawableReversed.stop();
         animatorImageView.setImageDrawable(mightyMorphinAnimatedVectorDrawableReversed);
         mightyMorphinAnimatedVectorDrawableReversed.start();
+    }
+    public void morph(){
+        AnimatedVectorDrawable currentDrawable = isShowingAndroid ? mightyMorphinAnimatedVectorDrawable : mightyMorphinAnimatedVectorDrawableReversed;
+        animatorImageView.setImageDrawable(currentDrawable);
+        currentDrawable.start();
+        isShowingAndroid = !isShowingAndroid;
     }
 
 }

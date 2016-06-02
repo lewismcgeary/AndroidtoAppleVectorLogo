@@ -29,7 +29,12 @@ public class MainActivity extends Activity {
         });
     }
 
-    public void morph(){
+    public void morph() {
+        AnimatedVectorDrawable prevDrawable = isShowingAndroid ? mightyMorphinAnimatedVectorDrawableReversed : mightyMorphinAnimatedVectorDrawable;
+        if (prevDrawable.isRunning()) {
+            prevDrawable.stop();
+        }
+
         AnimatedVectorDrawable currentDrawable = isShowingAndroid ? mightyMorphinAnimatedVectorDrawable : mightyMorphinAnimatedVectorDrawableReversed;
         animatorImageView.setImageDrawable(currentDrawable);
         currentDrawable.start();
